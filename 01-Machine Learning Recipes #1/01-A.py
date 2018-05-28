@@ -1,5 +1,6 @@
+# https://www.youtube.com/watch?v=cKxRvEZd3Mw&index=1&list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal
+
 from sklearn import tree
-#import sklearn
 
 # Step 1
 # we set up the features and labeles
