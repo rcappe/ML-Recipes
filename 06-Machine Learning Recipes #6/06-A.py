@@ -44,6 +44,7 @@ python retrain.py \
 # Test the algorithm
 # on bash console (I use git bash)
 # go on path .\06-Machine Learning Recipes #6\
+# cd "D:\GitHub\rcappe\ML-Recipes\06-Machine Learning Recipes #6"
 
 '''
 python label_image.py \
@@ -51,5 +52,14 @@ python label_image.py \
 --labels=retrained_labels.txt \
 --input_layer=Placeholder \
 --output_layer=final_result \
---image=test-rose.jpg
+--image=test\\test-rose.jpg
+'''
+# or
+'''
+python label_image.py \
+--graph=retrained_graph.pb \
+--labels=retrained_labels.txt \
+--input_layer=Placeholder \
+--output_layer=final_result \
+--image=test\\test-daisy.jpg
 '''
